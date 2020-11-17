@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>SecondHandShop</title>
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="Überuns.html" class="active">Über uns</a>
+            <div class="dropdown">
+              <button class="dropbtn">Shop
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="Frauen.html">Frauen</a>
+                <a href="Herren.html">Herren</a>
+                <a href="Kinder.html">Kinder</a>
+              </div>
+            </div>
+            <a href="Index.html" class="active">Home</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        <h1>Über uns</h1>
+        <div class="aboutus">
+            <p>Some text about who we are and what we do.</p>
+            <p>Resize the browser window to see that this page is responsive by the way.</p>
+          </div>
+          
+          <h3 style="text-align:center">Our Team</h3>
+          <div class="row">
+            <div class="columnau">
+              <div class="card">
+                <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+                <div class="containerau">
+                  <h2>Eliah Gerber</h2>
+                  <p class="title">CEO & Founder</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>jane@example.com</p>
+                  <p><button class="buttonau">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="columnau">
+              <div class="card">
+                <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+                <div class="containerau">
+                  <h2>Seraina Meister</h2>
+                  <p class="title">Art Director</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>mike@example.com</p>
+                  <p><button class="buttonau">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="columnau">
+              <div class="card">
+                <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+                <div class="containerau">
+                  <h2>Silvan Kohler</h2>
+                  <p class="title">Designer</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>john@example.com</p>
+                  <p><button class="buttonau">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>    
+    </body>
+
+
+    <footer>
+        <div class="footer">
+            <a href="mailto: info@SHS.ch">info@shs.ch |</a>
+            <a href="Datenschutz.html"> Datenschutz |</a>
+            <a href="Impressum.html"> Impressum |</a>
+            <a href="AGB.html"> AGB</a>
+        </div>
+    </footer>
+</html>

@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>SecondHandShop</title>
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="Überuns.html" class="active">Über uns</a>
+            <div class="dropdown">
+              <button class="dropbtn">Shop
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="Frauen.html">Frauen</a>
+                <a href="Herren.html">Herren</a>
+                <a href="Kinder.html">Kinder</a>
+              </div>
+            </div>
+            <a href="Index.html" class="active">Home</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        <h1>Impressum</h1>
+
+
+
+        
+    </body>
+    <footer>
+        <div class="footer">
+            <a href="mailto: info@SHS.ch">info@shs.ch |</a>
+            <a href="Datenschutz.html"> Datenschutz |</a>
+            <a href="Impressum.html"> Impressum |</a>
+            <a href="AGB.html"> AGB</a>
+        </div>
+    </footer>
+</html>
